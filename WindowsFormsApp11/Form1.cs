@@ -18,6 +18,8 @@ namespace WindowsFormsApp11
             InitializeComponent();
             queue = new Queue<Customer>();
 
+
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
