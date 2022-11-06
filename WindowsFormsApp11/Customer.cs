@@ -11,9 +11,9 @@ namespace WindowsFormsApp11
         private readonly string _name;
         public string Name { get => _name; }
 
-        public Customer(string name)
+        public Customer(string Name)
         {
-            _name = name;
+            _name = Name;
         }
 
     }
