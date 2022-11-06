@@ -32,9 +32,9 @@ namespace WindowsFormsApp11
         private void ShowUser()
         {
             listBox1.Items.Clear();
-            foreach (var item in queue)
+            foreach (var tmp in queue)
             {
-                listBox1.Items.Add(item.Name);
+                listBox1.Items.Add(tmp.Name);
             }
         }
         private void button2_Click(object sender, EventArgs e)
