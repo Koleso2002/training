@@ -14,10 +14,7 @@ namespace WindowsFormsApp11
         public Customer(string Name)
         {
             _name = Name;
-        int x=0;
-
-
-	}
+         }
 
     }
 }
