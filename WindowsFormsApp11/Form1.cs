@@ -35,6 +35,8 @@ namespace WindowsFormsApp11
             foreach (var tmp in queue)
             {
                 listBox1.Items.Add(tmp.Name);
+
+
             }
         }
         private void button2_Click(object sender, EventArgs e)
